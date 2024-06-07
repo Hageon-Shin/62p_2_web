@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#image-container {
+    width: 80%;
+    max-width: 600px;
+}
+
+#displayed-image {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+#progress-bar {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    /* 프로그레스 바의 색상을 회색으로 지정합니다. */
+    background-color: #999;
+}
+
+/* 프로그레스 바의 브라우저 기본 스타일을 제거합니다. */
+#progress-bar::-webkit-slider-thumb {
+    background: transparent;
+}
+#progress-bar::-moz-range-thumb {
+    background: transparent;
+}
+#progress-bar::-ms-thumb {
+    background: transparent;
+}
